@@ -6,8 +6,7 @@ void main() {
       backgroundColor: Colors.red[200],
       body: Center(
         child: Image(
-          image: NetworkImage(
-              'https://raw.githubusercontent.com/girishrajani/iamrich/main/assets/750x750bb.jpeg'),
+          image: AssetImage('images/diamond.png'),
         ),
       ),
       appBar: AppBar(
